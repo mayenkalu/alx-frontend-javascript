@@ -5,9 +5,10 @@
  *   firstName: String,
  *   location: String
  * }[]} students - The list of students.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * @author Mayen Kalu <https://github.com/mayenkalu>
  * @returns {Number}
  */
+
 export default function getStudentIdsSum(students) {
   if (students instanceof Array) {
     return students.reduce(
